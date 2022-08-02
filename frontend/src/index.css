@@ -1,0 +1,29 @@
+:root {
+  --color1: #210070;
+  --color1-1: hsl(258, 100%, 40%);
+  --color2: #1ce7eb;
+  --color3: #25b456;
+  --white: #fff;
+  --black: #000;
+  --red: rgb(243, 67, 67);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+h1 {
+  color: var(--color1);
+  margin-bottom: 1em;
+  font-size: 2.1em;
+}
+
+.bold {
+  font-weight: bold;
+  color: var(--color1);
+}
+button:active,
+input[type="submit"]:active {
+  transform: scale(0.95);
+}
