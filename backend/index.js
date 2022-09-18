@@ -17,5 +17,8 @@ const UserRoutes = require("./routes/UserRoutes");
 const PetRoutes = require("./routes/PetRoutes");
 app.use("/users", UserRoutes);
 app.use("/pets", PetRoutes);
+app.get("/", (req, res) => {
+  res.json({ message: "foi" });
+});
 
 app.listen(5000);
